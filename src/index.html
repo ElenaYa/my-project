@@ -8,7 +8,31 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-
+    <div class="container">
+      <div class="logo">
+        <picture>
+          <source srcset="img/logo-img.png 1x, /img/logo-img@2x.png 2x" media="(min-width: 375px)">
+          <source srcset="img/logo-img-tablet.png 1x, /img/logo-img-tablet@2x.png 2x" media="(min-width: 768px)">
+          <source srcset="img/logo-img-desk.png 1x, /img/logo-img-desk@2x.png 2x" media="(min-width: 1440px)">
+          <img src="img/logo-img.png" alt="user icon start page" class="icon-image">
+      </picture>
+      </div>
+      <div class="title-container">
+        <svg class="icon-light" width="14" height="18">
+          <use href="img/icons.svg#icon-light" />
+        </svg>
+        <h1 class="title">TaskPro</h1>
+      </div>
+      <p class="text-start-page">Supercharge your productivity and take control of your tasks with Task Pro - Don't wait, start achieving your goals now!</p>
+      <ul class="list-btn">
+        <li class="item-btn">
+          <a href="/" alt="registration">Registration</a>
+        </li>
+        <li class="item-btn">
+          <a href="/" alt="log in">Log In</a>
+        </li>
+      </ul>
+    </div>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
