@@ -7,18 +7,18 @@
     <title>Vanilla App Template</title>
     
     <script type="module" crossorigin src="/my-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/my-project/assets/index-0eb5d563.css">
+    <link rel="stylesheet" href="/my-project/assets/index-b9f3b0eb.css">
   </head>
   <body>
-    <div class="container">
-      <div class="logo">
-        <picture>
-          <source srcset="/my-project/assets/logo-img-f8d176e8.png 1x, /my-project/assets/logo-img@2x-bb5a02e4.png 2x" media="(min-width: 375px)">
-          <source srcset="/my-project/assets/logo-img-desk-ba94676e.png 1x, /my-project/assets/logo-img-desk@2x-17ee1173.png 2x" media="(min-width: 768px)">
-          <source srcset="/my-project/assets/logo-img-desk-ba94676e.png 1x, /my-project/assets/logo-img-desk@2x-17ee1173.png 2x" media="(min-width: 1440px)">
-          <img src="/my-project/assets/logo-img-f8d176e8.png" alt="user icon start page" class="icon-image">
+    <div class="start-page">
+     <div class="container">
+      <picture class="image-box">
+        <source srcset="/my-project/assets/logo-img-f8d176e8.png 1x, /my-project/assets/logo-img@2x-bb5a02e4.png 2x" media="(max-width: 767px)">
+        <source srcset="/my-project/assets/logo-img-desk-ba94676e.png 1x, /my-project/assets/logo-img-desk@2x-17ee1173.png 2x" media="(min-width: 768px)">
+        <source srcset="/my-project/assets/logo-img-desk-ba94676e.png 1x, /my-project/assets/logo-img-desk@2x-17ee1173.png 2x" media="(min-width: 1440px)">
+        <img src="/my-project/assets/logo-img-f8d176e8.png" alt="user icon start page" class="icon-image">
       </picture>
-      </div>
+      
       <div class="title-container">
         <svg class="icon-light" width="14" height="18">
           <use href="/my-project/assets/icons-03472c18.svg#icon-light" />
@@ -27,7 +27,7 @@
       </div>
       <p class="text-start-page">Supercharge your productivity and take control of your tasks with Task Pro - Don't wait, start achieving your goals now!</p>
       <ul class="list-btn">
-        <li class="item-btn">
+        <li class="item-btn-rg">
           <a href="/" alt="registration">Registration</a>
         </li>
         <li class="item-btn">
@@ -35,6 +35,8 @@
         </li>
       </ul>
     </div>
+    </div>
+  </div>
     
   </body>
 </html>
