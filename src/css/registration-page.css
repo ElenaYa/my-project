@@ -18,15 +18,16 @@
     gap: 14px;
 }
 .link {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 18px;
+}
+.link.isActive {
     color: #ffffff;
     font-size: 18px;
     font-weight: 500;
     line-height: 1.5;
 }
-.link-login {
-    color: rgba(255, 255, 255, 0.3);
-    font-size: 18px;
-}
+
 .registration-form {
     display: flex;
     flex-direction: column;
@@ -58,15 +59,15 @@
     font-size: 14px;
 }
 @media screen and (min-width: 375px) {
-    .registration-page .container {
+    .login-page .container {
         width: 335px;
     }
 }
 @media screen and (min-width: 768px) {
-    .registration-box {
+    .login-box {
         padding: 40px;
     }
-    .registration-page .container {
+    .login-page .container {
         width: 424px;
    }
   }
