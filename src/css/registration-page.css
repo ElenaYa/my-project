@@ -73,7 +73,6 @@ input:focus {
     display: flex;
     align-items: stretch;
     flex-direction: column;
-    margin-bottom: -14px;
   }
 
   .show-password-button {
