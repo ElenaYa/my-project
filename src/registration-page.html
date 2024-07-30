@@ -18,7 +18,14 @@
             <form class="registration-form">
                 <input class="input" type="text" placeholder="Enter your name" required>
                 <input class="input" type="email" placeholder="Enter your email" required>
-                <input class="input input-last" type="password" placeholder="Create a password" required> 
+                <div class="password-wrap">
+                    <input class="input input-last password-input" id="password" type="password" placeholder="Create a password" required> 
+                    <span id="toggle-password" class="show-password-button">
+                    <svg class="icon-eye" width="18" height="18">
+                        <use href="img/icons.svg#icon-eye" />
+                      </svg>
+                  </span>
+                </div>
             </form>
             <button type="submit" class="registration-btn">Register Now</button>
         </div>
